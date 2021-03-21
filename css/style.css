@@ -1,0 +1,197 @@
+header {
+    background-color: blueviolet;
+    height: 70px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    size: 4em;
+}
+
+.header-main {
+    width: 850px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+    width: 325px;
+    margin-top: 20px;
+}
+
+.header-right {
+    clear: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.header-nav-left {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.header-nav-left li {
+    display: inline;
+}
+
+.header-nav-left-text {
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.header-nav-right {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.header-nav-right li {
+    display: inline;
+}
+
+.navbar {
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+
+.navbar-menu {
+    width: 850px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.navbar-menu li {
+    display: inline;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(42, 212, 204);
+}
+
+.navbar-menu-text {
+    text-align: left;
+    font-size: 20px;
+}
+
+.navbar-menu-nav ul {
+    display: none;
+    padding: 0px;
+    position: absolute;
+}
+
+.navbar-menu-nav li:hover ul {
+    display: block;
+}
+
+.navbar-menu-nav li {
+    float: left;
+    position: relative;
+}
+
+.navbar-menu-nav ul li {
+    float: none;
+}
+
+.main {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.main-left {
+    float: left;
+    width: 150px;
+    background-color: rgb(228, 190, 24);
+}
+
+.main-right {
+    width: 750px;
+    background-color: rgb(184, 23, 76);
+    display: inline;
+}
+
+.main-left-nav {
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: -40px;
+}
+
+.main-left-nav a {
+    background-color: #949494;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 5px solid #33ADFF;
+    display: block;
+}
+
+.main-left-nav li {
+    border-left: 5px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+<!-- почему то не работат-->.main-left-nav a :hover {
+    background-color: #666;
+    border-left: 5px solid #3333FF;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 900px;
+    height: 100px;
+    background-color: #3b3535;
+    margin-top: 55px;
+}
+
+#phone {
+    width: 25px;
+    height: 25px;
+}
+
+#viber {
+    width: 25px;
+    height: 25px;
+}
+
+#telegram {
+    width: 25px;
+    height: 25px;
+}
+
+#ok {
+    width: 25px;
+    height: 25px;
+}
+
+#fb {
+    width: 25px;
+    height: 25px;
+}
+
+#google {
+    width: 25px;
+    height: 25px;
+}
+
+#watsap {
+    width: 25px;
+    height: 25px;
+}
+
+#remont {
+    width: 750px;
+    height: 550px;
+}
+
+#job {
+    width: 300px;
+    height: 400px;
+}
